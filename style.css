@@ -1,0 +1,25 @@
+#grid {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+}
+body {
+  margin: 0;
+}
+a {
+  color: green;
+  text-decoration: none;
+}
+h1 {
+  font-size: 45px;
+  text-align: center;
+  border-bottom: 5px solid green;
+  margin: 0;
+  padding: 20px;
+}
+#grid ol {
+  border-right: 5px solid green;
+  width: 200px;
+  margin: 0;
+  padding: 20px;
+  padding-left: 35px;
+}
